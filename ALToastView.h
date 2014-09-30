@@ -22,15 +22,15 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 //
+// Edited: Daniel Klöck 30.09.2014
+// Sumary: updated for ARC/iOS7, only one Toast at a time switch them if a new is created
 
 #import <Foundation/Foundation.h>
 
 
-@interface ALToastView : UIView {
-@private
-	UILabel *_textLabel;
-}
+@interface ALToastView : UIView
 
 + (void)toastInView:(UIView *)parentView withText:(NSString *)text;
 
+@property (nonatomic, strong) UILabel *textLabel;
 @end

@@ -11,4 +11,12 @@ How to use
 
 * Copy class files into your project
 * Add QuartzCore.framework to your project's linked libraries
-* Import `ALToastView.h` and call static `toastInView:withText:` for every new toast message you want to show, e.g in your `UIViewController` subclass call `[ALToastView toastInView:self.view withText:@"Hello ALToastView"];`
+* Import `ALToastView.h` and call static `toastInView:withText:` for every new toast message you want to show, e.g in your `UIViewController` subclass call `[ALToastView toastInView:self.view withText:@"Hello ALToastView"];`ALToastView
+
+Changes to the original ALToastView from Alex Leutgöb
+-----------------------------------------------------
+
+* Updated for ARC
+* Only one ToastView is shown at a time (no queue)
+* If a new ToastView is created while another is active, the old will be removed instantly
+* If a new ToastView is created with the same text, the timer will start again
