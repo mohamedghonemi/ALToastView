@@ -1,0 +1,17 @@
+{
+  "name": "ALToastView",
+  "version": "0.0.1",
+  "platforms": {
+    "ios": null
+  },
+  "license": "MIT",
+  "summary": "Android-like toast messages for iOS.",
+  "homepage": "https://github.com/mohamedghonemi/ALToastView",
+  "source": {
+    "git": "https://github.com/mohamedghonemi/ALToastView.git",
+    "tag": "1.1.2"
+  },	
+  "source_files": "ALToastView/*.{h,m}",
+  "requires_arc": true,
+  "frameworks": "QuartzCore"
+}
