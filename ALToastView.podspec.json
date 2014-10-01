@@ -12,6 +12,6 @@
     "tag": "1.1.2"
   },	
   "source_files": "ALToastView.{h,m}",
-  "requires_arc": true,
+  "requires_arc": true ,
   "frameworks": "QuartzCore"
 }
