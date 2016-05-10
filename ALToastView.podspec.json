@@ -4,12 +4,16 @@
   "platforms": {
     "ios": null
   },
+   "authors": {
+    "Alex Leutgöb": "alexleutgoeb.com"
+    "Mohamed Ghonemi" : "https://ghonemiblog.wordpress.com/"
+  },
   "license": "MIT",
   "summary": "Android-like toast messages for iOS.",
   "homepage": "https://github.com/mohamedghonemi/ALToastView",
   "source": {
     "git": "https://github.com/mohamedghonemi/ALToastView.git",
-    "tag": "1.1.2"
+    "tag": "v1.1.2"
   },	
   "source_files": "ALToastView.{h,m}",
   "requires_arc": true ,
